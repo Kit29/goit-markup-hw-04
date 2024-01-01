@@ -102,7 +102,7 @@ margin-top: 8px;
     border-radius: 50%;
 }
 .heror {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1\ \(1\).jpg); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1\ \(1\).jpg);
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,6 +111,7 @@ margin-top: 8px;
     align-items: center;
     max-width: 1440px;
     background-position: center;
+
 }
 ul, ol {
 	margin-top: 0;
@@ -309,6 +310,9 @@ background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .service:focus {
     background-color: #404BBF;
+}
+.button::after {
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .strate {
     color: var(--NAVY-BLUE, #2E2F42);
