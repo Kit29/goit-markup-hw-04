@@ -12,7 +12,35 @@ h1, h2, h3, h4, h5, h6, p {
 .web-studio {
     gap: 24px;
 }
+.propositions {
+position: relative;
+overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:  #F4F4FD;
+    padding: 32px;
+    padding-top: 40px;
+/* Body */
+font-size: 16px;
+width: 360px;
+height: 300px;
+flex-shrink: 0;
+line-height: 150%; /* 150% */
+letter-spacing: 0.32px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: var(--IRIS, #4D5AE5);
+transform: translateY(190%);
+transition: transform 500ms ease-in;
 
+}
+.avrora:hover .overlay{
+    transform: translateY(0);
+}
 border: 1px solid var(--LIGHT-SLATE, #8E8F99);
 background: var(--CLOUD, #F4F4FD);
 width: 264px;
