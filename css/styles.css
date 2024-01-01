@@ -41,10 +41,6 @@ transition: transform 500ms ease-in;
 .avrora:hover .overlay{
     transform: translateY(0);
 }
-border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-background: var(--CLOUD, #F4F4FD);
-width: 264px;
-height: 112px;
 .eye {
     display: flex;
     justify-content: center;
