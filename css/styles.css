@@ -111,7 +111,7 @@ margin-top: 8px;
     align-items: center;
     max-width: 1440px;
     background-position: center;
-
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 ul, ol {
 	margin-top: 0;
@@ -206,6 +206,8 @@ color: #404bbf;
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 position: relative; 
 color: #404bbf; 
+position: relative;
+color: #404bbf;
 }
 .pidlog:hover {
     color: #404bbf;
@@ -216,7 +218,7 @@ color: #404bbf;
 .pidlog.active {
     color: #404BBF;
 }
-.pidlog.active::after {
+.header-menu::after {
     content: "";
     position: absolute; 
     display: block;
