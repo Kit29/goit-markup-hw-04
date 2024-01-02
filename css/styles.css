@@ -563,6 +563,10 @@ letter-spacing: 0.32px;
 .orrruu {
     margin-right: 692px;
 }
+.uuuu {
+    display: flex;
+    align-items: baseline;
+}
 .werto {
     font-weight: 500;
     font-size: 16px;
