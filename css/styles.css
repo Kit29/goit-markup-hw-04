@@ -129,6 +129,10 @@ ul, ol {
     display: block;
     list-style: none; 
 }
+.header-menu {
+    position: relative;
+    color: #404bbf; 
+}
 .container { 
     max-width: 1158px;
     padding: 0 15px;
@@ -231,7 +235,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .pidlog.active {
     color: #404BBF;
 }
-.pidlog.active::after {
+.active::after {
     content: "";
     position: absolute; 
     display: block;
